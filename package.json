@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/awh32/Wordle-Discord-Bot/issues"
   },
-  "homepage": "https://github.com/awh32/Wordle-Discord-Bot#readme"
+  "homepage": "https://github.com/awh32/Wordle-Discord-Bot#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0"
+  }
 }
