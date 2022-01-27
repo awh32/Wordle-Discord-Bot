@@ -1,0 +1,19 @@
+{
+  "name": "wordle-discord-bot",
+  "version": "1.0.0",
+  "description": "a bot for talking about wordle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"discord bot test\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awh32/Wordle-Discord-Bot.git"
+  },
+  "author": "Andrew Heckman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awh32/Wordle-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/awh32/Wordle-Discord-Bot#readme"
+}
