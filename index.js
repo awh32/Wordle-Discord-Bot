@@ -1,6 +1,6 @@
 // Require the necessary discord.js classes
 const { Client, Intents } = require('discord.js');
-const { token } = require('./config.json');
+// const { token } = require('./config.json');
 
 // Create a new client instance
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
@@ -25,7 +25,4 @@ client.on('interactionCreate', async interaction => {
 });
 
 // Login to Discord with your client's token
-// I couldn't get the following working using the token as a config var stored with Heroku, but theoretically that should be possible
-// client.login(process.env.WORDLE_BOT_TOKEN);
-
-client.login(token);
+client.login(process.env.WORDLE_BOT_TOKEN);
